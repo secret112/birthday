@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#120b2b">
+<title>Two Days of Magic ✨</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="fx"></canvas>
+<div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div>
+
+<main class="home" id="home">
+  <div class="tiny">A little universe made with love ✨</div>
+  <h1>Two Birthdays.<br><span>Two Beautiful Souls.</span></h1>
+  <p class="intro">Choose a magical door and let the celebration begin.</p>
+
+  <section class="doors">
+    <button class="door manu" data-page="manuPage">
+      <span class="sparkles">✦　✧　✦</span>
+      <span class="emoji">🌸</span>
+      <b>Manu's Birthday</b>
+      <small>For a beautiful ☺️ · 19 September</small>
+      <i>Open the magic →</i>
+    </button>
+    <button class="door sonu" data-page="sonuPage">
+      <span class="sparkles">✧　✦　✧</span>
+      <span class="emoji">🎀</span>
+      <b>Sonu's Birthday</b>
+      <small>Our little queen · 20 September · Turning 8🥳</small>
+      <i>Open the magic →</i>
+    </button>
+  </section>
+  <div class="from">from Partha ♡</div>
+</main>
+
+<section class="birthday-page manu-page" id="manuPage">
+  <button class="back">← Back</button>
+  <div class="petals"></div>
+  <div class="hero-card">
+    <div class="eyebrow">19 • SEPTEMBER</div>
+    <div class="big-icon">🌷</div>
+    <h2>Happy Birthday,<br><span>Manu! 💖</span></h2>
+    <p class="lead">May your day glow brighter than every little star in the sky.</p>
+    <div class="wish-grid">
+      <div>🌹<strong>Love</strong><small>May you always be surrounded by people who genuinely love you.</small></div>
+      <div>✨<strong>Dreams</strong><small>May every beautiful dream find its way to you.</small></div>
+      <div>🕯️<strong>Joy</strong><small>May your smile stay bright through every chapter of life.</small></div>
+      <div>🌙<strong>Peace</strong><small>May your heart always have a quiet, happy place to rest.</small></div>
+    </div>
+    <blockquote>“May this new chapter be soft, bright, unforgettable, and wonderfully yours.”</blockquote>
+    <div class="candles">🕯️ 🕯️ 🕯️ 🕯️ 🕯️</div>
+    <button class="celebrate" data-burst="manu">Make a wish ✨</button>
+    <div class="signature">with lots of warmth &nbsp;♡&nbsp; from the liar who's leaving for your happy life☺️</div>
+  </div>
+</section>
+
+<section class="birthday-page sonu-page" id="sonuPage">
+  <button class="back">← Back</button>
+  <div class="paper-stars">✦ ✧ ✦ ✧ ✦ ✧ ✦</div>
+  <div class="cute-deco left">🎀<br>🩷<br>🌸</div>
+  <div class="cute-deco right">🌷<br>✨<br>🎀</div>
+  <div class="sonu-card">
+    <div class="eyebrow">20 • SEPTEMBER</div>
+    <div class="crown">👑</div>
+    <h2>শুভ জন্মদিন<br><span>সোনু কুইন! 🎀</span></h2>
+    <p class="bengali">আজ তুমি ৮ বছরে পা দিলে! 🌸<br>তোমার হাসি যেন সবসময় আকাশের তারার মতো ঝলমল করে।</p>
+    <div class="character-row">
+      <div class="character">💗<small>Barbie<br>magic</small></div>
+      <div class="character">💙<small>Doraemon<br>fun</small></div>
+      <div class="character">🎂<small>8<br>candles</small></div>
+    </div>
+    <div class="video-box">
+      <video id="sonuVideo" controls playsinline loop preload="metadata">
+        <source src="Hbd.mp4" type="video/mp4">
+      </video>
+      <div class="video-placeholder">🎀<br><small>তোমার ভিডিওটি<br>assets/hbd.mp4 নামে রাখো</small></div>
+    </div>
+    <div class="bengali quote">“তোমার প্রতিটি দিন হোক রঙিন, সুন্দর আর আনন্দে ভরা। 💕”</div>
+    <button class="celebrate pink" data-burst="sonu">রঙিন আতশবাজি! 🎆</button>
+    <div class="signature">Happy Birthday, Sonu Queen 💕<br><b>This is from Pikai da.</b></div>
+  </div>
+</section>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
